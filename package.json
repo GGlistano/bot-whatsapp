@@ -1,5 +1,5 @@
 {
-  "name": "chatbot-whatsapp-ia",
+  "name": "bot-whatsapp",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
