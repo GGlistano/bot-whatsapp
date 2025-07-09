@@ -30,7 +30,8 @@ app.post("/webhook", async (req, res) => {
 
   await ref.set({ messages: historico }, { merge: true });
 
-  res.json({ resposta });
+ res.json({ reply: resposta });
+
 });
 
 const PORT = process.env.PORT || 3000;
