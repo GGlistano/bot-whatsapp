@@ -23,7 +23,7 @@ async function gerarResposta(mensagens = [], prompt = "") {
     fullMessages.push(...mensagens);
 
     const resposta = await openai.chat.completions.create({
-      model: "gpt-4o", // ou "gpt-4o-mini" se quiser mais barato e rápido
+      model: "gpt-4o-mini", // ou "gpt-4o-mini" se quiser mais barato e rápido
       messages: fullMessages,
       temperature: 0.7,
     });
